@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://tiles/WWT-01.png" type="Texture" id=1]
 [ext_resource path="res://tiles/WWT-02.png" type="Texture" id=2]
@@ -12,7 +12,7 @@
 [ext_resource path="res://tiles/WWT-10.png" type="Texture" id=10]
 [ext_resource path="res://tiles/WWT-11.png" type="Texture" id=11]
 [ext_resource path="res://tiles/WWT-12.png" type="Texture" id=12]
-[ext_resource path="res://tiles/WWT-13.png" type="Texture" id=13]
+[ext_resource path="res://tiles/WWT-P01.png" type="Texture" id=13]
 [ext_resource path="res://tiles/WWT-14.png" type="Texture" id=14]
 [ext_resource path="res://tiles/WWT-15.png" type="Texture" id=15]
 [ext_resource path="res://tiles/WWT-16.png" type="Texture" id=16]
@@ -26,6 +26,7 @@
 [ext_resource path="res://tiles/WWT-24.png" type="Texture" id=24]
 [ext_resource path="res://tiles/WWT-25.png" type="Texture" id=25]
 [ext_resource path="res://tiles/WWT-26.png" type="Texture" id=26]
+[ext_resource path="res://tiles/WWT-13.png" type="Texture" id=27]
 
 [node name="TilesetEdit" type="Node2D"]
 
@@ -90,7 +91,7 @@ centered = false
 
 [node name="Tile13" type="Sprite" parent="."]
 position = Vector2( 384, 128 )
-texture = ExtResource( 13 )
+texture = ExtResource( 27 )
 centered = false
 
 [node name="Tile14" type="Sprite" parent="."]
@@ -157,3 +158,7 @@ centered = false
 position = Vector2( 896, 256 )
 texture = ExtResource( 26 )
 centered = false
+
+[node name="HomeTile" type="Sprite" parent="."]
+position = Vector2( 1088, 320 )
+texture = ExtResource( 13 )
