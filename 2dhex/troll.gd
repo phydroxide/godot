@@ -11,3 +11,4 @@ func _physics_process(_delta):
 	motion2 = motion2.normalized() * MOTION_SPEED
 	#warning-ignore:return_value_discarded
 	move_and_slide(motion2)
+	move_and_slide(motion2)
